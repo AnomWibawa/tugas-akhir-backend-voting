@@ -30,4 +30,20 @@ project_voting/
 ├── main.py            # Entry point aplikasi
 └── README.md          # Dokumentasi proyek
 
+6. Cara Instalasi dan Menjalankan Aplikasi
+Clone Repository: Download atau clone repository ini ke komputer lokal.
+
+Install Library: Buka terminal di folder utama proyek dan jalankan:
+pip install -r requirements.txt
+Jalankan Server:
+uvicorn main:app --reload
+Akses API: Buka browser dan akses documentation API interaktif di: http://127.0.0.1:8000/docs
+
+7. Dokumentasi Database & ERD
+Database: Data disimpan dalam file voting.db (SQLite).
+
+Format SQL: File database.sql berisi perintah DDL untuk pembuatan struktur tabel sesuai standar tugas.
+
+Diagram ERD: Visualisasi hubungan antar entitas (User, Poll, Vote) dapat dilihat pada file gambar erd_sistem_voting.png.
+
 
