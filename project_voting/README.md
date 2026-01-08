@@ -4,7 +4,7 @@
 Aplikasi backend ini dikembangkan untuk mengelola sistem pemungutan suara (voting) secara transparan dan efisien.
 
 ## 2. Anggota Tim
-- **Nama** - NIM - Username GitHub - Peran: Backend Developer
+- I Made Anom Wibawa - 240030465 - Username GitHub : AnomWibawa - Peran: Backend Developer
 
 ## 3. Lingkungan Pengembangan
 - **Bahasa**: Python 3.12
@@ -29,4 +29,5 @@ project_voting/
 │   └── database.py    # Konfigurasi koneksi SQLite
 ├── main.py            # Entry point aplikasi
 └── README.md          # Dokumentasi proyek
+
 
